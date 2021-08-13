@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from locators.coin_page_locators import CoinPageLocators
 from parsers.coin_parser import CoinParser
 
-logger = logging.getLogger('scraping.all_books_page')
+logger = logging.getLogger('scraping.all_coins_page')
 
 class AllCoinsPage():
     def __init__(self, page):

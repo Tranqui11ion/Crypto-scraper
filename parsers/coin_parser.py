@@ -3,6 +3,7 @@ import logging
 import logging
 from locators.coin_locators import CoinLocators
 
+
 logger = logging.getLogger('scraping.book_parser')
 
 
@@ -16,7 +17,7 @@ class CoinParser():
         self.parent = parent
 
     def __repr__(self):
-        return f'<Coin: {self.coin_name}: {self.price}'
+        return f'{self.coin_name}'
 
     @property
     def coin_name(self):
